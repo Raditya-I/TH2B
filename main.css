@@ -5,6 +5,12 @@
 }
 body {
   font-size: 16px;
+  display: grid;
+  grid-area: 
+  "aside header"
+  "aside main"
+  
+  ;
 }
 header {
   display: block;
@@ -24,4 +30,10 @@ nav {
   position: fixed;
   padding: 12px;
   color: white;
+}
+aside {
+  position: absolute;
+  width: 50%;
+  height: 100vh;
+  background: #313964;
 }
